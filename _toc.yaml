@@ -1,0 +1,57 @@
+# Generates table of contents in Jupyter-Book YAML format
+
+# Define the book as a Jupyter-Book
+format: jb-book
+
+# Define the root page for the book
+root: intro
+
+# Define the parts of the book
+parts:
+
+  # Define the first part of the book
+  - caption: Introduction
+    chapters:
+      - file: chapter1
+        sections:
+          - file: section1_1
+          - file: section1_2
+          - file: section1_3
+
+  # Define the second part of the book
+  - caption: Calculus Fundamentals
+    chapters:
+      - file: chapter2
+        sections:
+          - file: section2_1
+          - file: section2_2
+
+  # Define the third part of the book
+  - caption: A Galaxy in Peril
+    chapters:
+      - file: chapter3
+        sections:
+          - file: section3_1
+          - file: section3_2
+          - file: section3_3
+
+  # Define the fourth part of the book
+  - caption: Advanced Calculus
+    chapters:
+      - file: chapter4
+        sections:
+          - file: section4_1
+          - file: section4_2 
+          
+  # Define the fifth part of the book
+  - caption: Appendix
+    chapters:
+      - file: chapter5
+        sections:
+          - file: section5_1
+          - file: section5_2
+          - file: section5_3
+
+# Add a brief description of the book, targeted at calculus students
+description: |
+    This part fiction story, part math textbook, aims to teach calculus using interactive ipynb with markup cells for the story and python cells for the examples to enact stories set in a Star Wars-like universe. This book should cover all the core calculus from textbooks like Calculus: Early Transcendentals by James Stewart. Examples for calculus should be in ipynb cells for Python while the story text should be in Markdown cells. This will be a comprehensive calculus by examples book with a fictional story to tie the examples and exercises together.
