@@ -6,8 +6,9 @@ from nbformat.v4 import new_markdown_cell, new_code_cell, new_notebook
 def generate_content(yaml_content):
     # Load the YAML content
     toc = yaml.load(yaml_content, Loader=yaml.SafeLoader)
-    # Define the API key
-    api_key = 
+    # Define the API key. Replace the empty string with your actual key or
+    # configure the OPENAI_API_KEY environment variable as needed.
+    api_key = ""
 
     # Set the API key for the OpenAI library
     openai.api_key = api_key
