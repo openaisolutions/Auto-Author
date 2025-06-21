@@ -3,8 +3,10 @@ import yaml
 import requests
 
 
-# Set your OpenAI API key here
-api_key = 
+# Set your OpenAI API key here. The script will use this key when making
+# requests to the OpenAI API. Replace the empty string with your actual key or
+# set the OPENAI_API_KEY environment variable and modify the code accordingly.
+api_key = ""
 
 def load_toc(file_path):
     with open(file_path, 'r') as file:

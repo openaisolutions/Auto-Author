@@ -3,8 +3,9 @@ import openai
 import re
 import requests
 
-# Define the API key
-api_key = 
+# Define the API key. Replace the empty string with your actual key if you
+# want to use this script directly.
+api_key = ""
 
 # Set the API key for the OpenAI library
 openai.api_key = api_key
